@@ -1,5 +1,6 @@
+package task2;
+
 import java.io.*;
-import java.net.ServerSocket;
 import java.net.Socket;
 import java.nio.charset.StandardCharsets;
 import java.util.NoSuchElementException;
@@ -37,7 +38,6 @@ public class EchoClient {
                         var messageFromServer = scanner1.nextLine().strip();
                         System.out.printf("Server: %s%n",messageFromServer);}
                 }
-
             }
 
         }catch (NoSuchElementException e) {
